@@ -6,33 +6,33 @@ import { AntDesign } from '@expo/vector-icons';
 export default function Home(){
 	
 	let [taskTargetID, setTaskTargetID] = useState(false);
-	
+		
 	let [taskTargetTitle, setTaskTargetTitle] = useState(false);
-	
+		
 	let [taskTargetPriority, setTaskTargetPriority] = useState(false);
 
 	let [taskFormAdd, setTaskFormAdd] = useState(false);
 
 	let [taskFormRemove, setTaskFormRemove] = useState(false);
-	
+		
 	let [taskFormEdit, setTaskFormEdit] = useState(false);
-	
-    let [taskItems, setTaskItems] = useState(
+		
+	let [taskItems, setTaskItems] = useState(
 		[
 			{
 				id:0,
-				title:'Ir na padaria comprar pão',
+				title:'Invite your girlfriend to the movies',
 				priority:"low",
 			},
 			{
 				id:1,
-				title:'Fazer o trabalho do App Tarefas',
+				title:'Test new task app functionality',
 				priority:"medium",
 			},
 			{
-			  id:2,
-			  title:'ir no médico fazer exames',
-			  priority:"high",
+				id:2,
+				title:'Deploy to production environment',
+				priority:"high",
 			},
 		]
 	);
